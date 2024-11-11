@@ -1,0 +1,112 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  
+  
+  text-align: center;
+  background-color: white  ;
+}
+/* 
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+} */
+
+.read-the-docs {
+  color: #888;
+}
+
+.first-section {
+  position: absolute;
+  width : 70vw;
+  height: 50vh;
+  left: 15vw;
+  top : 3vh;
+  background-color: hsl(240, 72%, 8%);
+  
+}
+
+.navbar {
+  position: absolute;
+  padding: 5%;
+  width: 90%;
+  height: 10%;
+  top : -5%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  
+}
+.hello { 
+  position: absolute;
+  left: 5%;
+  top: 15%;
+  text-align: left;
+  
+
+}
+.paragraph{
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  width: 20%;
+  text-align: left;
+}
+
+.btn-1 {
+  position: absolute;
+  left: 5%;
+  top : 80%;
+  background-color: white;
+  color: black;
+}
+
+
+.icon-section{
+  position: absolute;
+  top: 53vh;
+  left: 15vw;
+  width:70vw;
+  display : flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+.one-icon {
+  flex-basis:25%;
+  display : flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  color: black;
+
+}
